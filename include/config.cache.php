@@ -1,13 +1,14 @@
 <?php	if(!defined('IN_PHPMYWIND')) exit('Request Error!');
 
-$cfg_weburl = 'http:www.jiancheng.gxloushitong.com';
+$cfg_webname = '新疆霍城县科技局';
+$cfg_weburl = 'http:xinjiang.jtr168.cn';
 $cfg_webpath = '';
 $cfg_author = '';
 $cfg_generator = '';
-$cfg_seotitle = '拉森钢板桩施工,钢板桩租赁';
-$cfg_keyword = '拉森钢板桩施工,钢板桩租赁';
-$cfg_description = '广西建诚鸿业机械设备租赁有限公司专业从事拉森钢板桩租赁,钢板桩施工,围囹支撑,灌注桩,旋喷桩,PC工法桩,SMW工法桩等工程业务.';
-$cfg_copyright = 'Copyright © 2020 www.jiancheng.gxloushitong.com All Rights Reserved';
+$cfg_seotitle = '';
+$cfg_keyword = '';
+$cfg_description = '';
+$cfg_copyright = 'Copyright © 2021 http:xinjiang.jtr168.cn All Rights Reserved';
 $cfg_hotline = '400-800-8888';
 $cfg_icp = '';
 $cfg_webswitch = 'Y';

@@ -45,3 +45,11 @@
 <?php exit(); ?> Time: 2020-12-09 15:27:37. || Page: /admin/default.php || IP: 127.0.0.1 || Error: 连接数据库失败，可能数据库密码不对或数据库服务器出错！
 <?php exit(); ?> Time: 2020-12-09 15:29:18. || Page: /admin/default.php || IP: 127.0.0.1 || Error: 连接数据库失败，可能数据库密码不对或数据库服务器出错！
 <?php exit(); ?> Time: 2020-12-11 09:27:49. || Page: /message-1.html || IP: 127.0.0.1 || Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 Error sql: SELECT `classname` FROM `pmw_infoclass` WHERE `id`=
+<?php exit(); ?> Time: 2021-01-26 15:42:31. || Page: /admin/login.php || IP: 127.0.0.1 || Error: Table 'jtr168.ims_failedlogin' doesn't exist Error sql: DELETE FROM `ims_failedlogin` WHERE (UNIX_TIMESTAMP(NOW())-time)/60>15
+<?php exit(); ?> Time: 2021-01-26 15:42:43. || Page: /admin/login.php || IP: 127.0.0.1 || Error: Table 'jtr168.ims_failedlogin' doesn't exist Error sql: DELETE FROM `ims_failedlogin` WHERE (UNIX_TIMESTAMP(NOW())-time)/60>15
+<?php exit(); ?> Time: 2021-01-26 15:42:51. || Page: /admin/login.php || IP: 127.0.0.1 || Error: Table 'jtr168.ims_failedlogin' doesn't exist Error sql: DELETE FROM `ims_failedlogin` WHERE (UNIX_TIMESTAMP(NOW())-time)/60>15
+<?php exit(); ?> Time: 2021-01-26 15:43:00. || Page: /admin/login.php || IP: 127.0.0.1 || Error: Table 'jtr168.ims_failedlogin' doesn't exist Error sql: DELETE FROM `ims_failedlogin` WHERE (UNIX_TIMESTAMP(NOW())-time)/60>15
+<?php exit(); ?> Time: 2021-01-26 15:46:37. || Page: /admin/login.php || IP: 127.0.0.1 || Error: Table 'jtr168.pmw_failedlogin' doesn't exist Error sql: DELETE FROM `pmw_failedlogin` WHERE (UNIX_TIMESTAMP(NOW())-time)/60>15
+<?php exit(); ?> Time: 2021-01-26 16:04:28. || Page: /admin/login.php || IP: 127.0.0.1 || Error: Table 'jtr168.pmw_failedlogin' doesn't exist Error sql: DELETE FROM `pmw_failedlogin` WHERE (UNIX_TIMESTAMP(NOW())-time)/60>15
+<?php exit(); ?> Time: 2021-01-26 16:07:23. || Page: /admin/login.php || IP: 127.0.0.1 || Error: Table 'xinjiangkejiju.pmw_failedlogin' doesn't exist Error sql: DELETE FROM `pmw_failedlogin` WHERE (UNIX_TIMESTAMP(NOW())-time)/60>15
+<?php exit(); ?> Time: 2021-01-26 16:07:25. || Page: /admin/login.php || IP: 127.0.0.1 || Error: Table 'xinjiangkejiju.pmw_failedlogin' doesn't exist Error sql: DELETE FROM `pmw_failedlogin` WHERE (UNIX_TIMESTAMP(NOW())-time)/60>15

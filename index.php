@@ -1,11 +1,15 @@
-
+<?php 
+require_once(dirname(__FILE__).'/include/config.inc.php'); 
+//初始化参数检测正确性
+$cid = empty($cid) ? 5 : intval($cid);
+// $tid = empty($tid) ? 0 : intval($tid);
+header ('Access-Control-Allow-Origin: *');
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>新疆霍城科技局</title>
-<meta name="keywords" content="新疆霍城科技局" />
-<meta name="description" content="新疆霍城科技局" />
+<?php echo GetHeader(); ?>
 <meta name="author" content="order by adminbuy.cn" />
 <link href="/skin/css/style.css" type="text/css" rel="stylesheet" />
 <link rel="shortcut icon" href="/images/favicon.ico" />
@@ -13,7 +17,7 @@
 <script type="text/javascript" src="/skin/js/jquery.superslide.2.1.1.js"></script>
 <script type="text/javascript" src="/skin/js/myfocus-2.0.1.min.js"></script>
 <script type="text/javascript" src="/skin/js/flashstyle.js"></script>
-<script type="text/javascript" src="/skin/js/mF_kdui.js"></script>
+<!-- <script type="text/javascript" src="/skin/js/mF_kdui.js"></script> -->
 <script type="text/javascript" src="/skin/js/common.js"></script>
 <script>
 //flash设置
@@ -26,7 +30,7 @@ time:'5'//切换时间间隔(秒)
 </script>
 <link rel="stylesheet" href="/skin/css/mF_kdui.css">
 <link rel="stylesheet" href="/skin/css/mF_liquid.css">
-<script type="text/javascript" src="/skin/js/mF_liquid.js"></script>
+<!-- <script type="text/javascript" src="/skin/js/mF_liquid.js"></script> -->
 <!--[if lte IE 6]>
 <script src="/skin/js/dd_belatedpng_0.0.8a.js" type="text/javascript"></script>
 <script type="text/javascript">
@@ -41,7 +45,7 @@ DD_belatedPNG.fix('*');
 
 <div class="header">
   <div class="w1140">
-    <div class="logo"><a href="/" title="（带手机版数据同步）发展交流科技协会类网站织梦模板 商贸协会类网站源码"><img src="/images/logo.png" alt="（带手机版数据同步）发展交流科技协会类网站织梦模板 商贸协会类网站源码" /></a></div>
+    <div class="logo"><a href="/" title="新疆霍城县科技局"><img src="/images/logo.png" alt="新疆霍城县科技局" /></a></div>
     <div class="topright">
       <div class="language">
         <ul>
@@ -105,6 +109,23 @@ DD_belatedPNG.fix('*');
         </div>
       </div>
     </div>
+
+  <script>
+    $(function () {
+        $.ajax({
+        type: "post",
+        data: "sortid=44",
+        url: "https://jtr168.cn/taojing-pp/public/index.php/www/article",
+        dataType: "json",
+        success: function(data) {
+            console.log(data);
+        },
+      });
+    })
+  </script>
+
+
+
     <div class="ibox1_2">
       <div class="left_top"> <h3>生产技能</h3>
         <span><a href="/a/gonggao/lingdao/">更多+</a></span> </div>

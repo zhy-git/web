@@ -7,16 +7,16 @@
 */
 
 //数据库服务器
-$db_host = '103.21.140.125';
+$db_host = '42.194.244.197';
 
 //数据库用户名
-$db_user = 'jiancheng';
+$db_user = 'xinjiangkejiju';
 
 //数据库密码
-$db_pwd = 'jiancheng';
+$db_pwd = 'xinjiangkejiju';
 
 //数据库名
-$db_name = 'jiancheng';
+$db_name = 'xinjiangkejiju';
 
 //数据表前缀
 $db_tablepre = 'pmw_';
