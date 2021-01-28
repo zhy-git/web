@@ -223,7 +223,7 @@ DD_belatedPNG.fix('*');
     <div class="pro_con">
       <div class="txtMarquee-left">
         <div class="hd"> <div class="left_top">
-            <h3>会员风采</h3>
+            <h3>特派员</h3>
           </div> <a class="next"></a> <a class="prev"></a> </div>
         <div class="bd">
           <ul class="infoList">
