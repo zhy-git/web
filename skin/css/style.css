@@ -319,6 +319,9 @@ a:hover {
 	height: 32px;
 	line-height: 32px;
 	background: url(../images/left_list_li.jpg) no-repeat left center;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 .left_list ul li .time {
 	font-size: 12px;
